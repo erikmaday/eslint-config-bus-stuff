@@ -1,6 +1,6 @@
 # eslint-config-bus-stuff
 
-This package provides a .eslintrc as an extensible shared config for Vue 2.X projects.
+This package provides a .eslintrc as an extensible shared config for Vue 2.X with TypeScript projects.
 
 ## Usage
 
@@ -39,4 +39,4 @@ Our recommended config contains most of our ESLint rules, including ECMAScript 6
   install-peerdeps --dev eslint-config-bus-stuff
   ```
 
-2. Add `"extends": "plugin:charterup/recommended"` to your `.eslintrc`
+2. Add `plugins: ['charterup'],` and `extends: ['plugin:charterup/recommended']` to your `.eslintrc`
