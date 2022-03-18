@@ -39,4 +39,4 @@ Our recommended config contains most of our ESLint rules, including ECMAScript 6
   install-peerdeps --dev eslint-config-bus-stuff
   ```
 
-2. Add `plugins: ['charterup'],` and `extends: ['plugin:charterup/recommended']` to your `.eslintrc`
+2. Add `plugins: ['bus-stuff'],` and `extends: ['plugin:bus-stuff/recommended']` to your `.eslintrc`
