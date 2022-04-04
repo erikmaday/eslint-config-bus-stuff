@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-bus-stuff",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An opinionated collection of ESLint shared configs and rules.",
   "main": "lib/index.js",
   "entries": [
