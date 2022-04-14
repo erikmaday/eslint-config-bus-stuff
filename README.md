@@ -6,7 +6,7 @@ This package provides a .eslintrc as an extensible shared config for Vue 2.X wit
 
 We export one ESLint configuration for your usage (with more coming soon).
 
-### eslint-config-bus-stuff:recommended
+### eslint-config-bus-stuff:@typescript-recommended
 
 Our recommended config contains most of our ESLint rules, including ECMAScript 6+ and React. It requires `eslint:recommended`, `@vue/typescript`, `@vue/prettier`, `@vue/prettier/@typescript-eslint`, `vue/essential`, and `vue/recommended`.
 
@@ -39,4 +39,4 @@ Our recommended config contains most of our ESLint rules, including ECMAScript 6
   install-peerdeps --dev eslint-config-bus-stuff
   ```
 
-2. Add `plugins: ['bus-stuff'],` and `extends: ['plugin:bus-stuff/recommendedTs']` to your `.eslintrc`
+2. Add `plugins: ['bus-stuff'],` and `extends: ['plugin:bus-stuff/@typescript-recommended']` to your `.eslintrc`
