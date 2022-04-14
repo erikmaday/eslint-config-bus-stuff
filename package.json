@@ -30,7 +30,7 @@
     "lib/*"
   ],
   "devDependencies": {
-    "eslint": "^6.7.2",
+    "eslint": "^8.0.0",
     "eslint-plugin-eslint-plugin": "^4.0.3"
   },
   "homepage": "https://github.com/erikmaday/eslint-config-bus-stuff",
